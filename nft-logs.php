@@ -1,5 +1,5 @@
 <?php 
-    $my_server_url = "https://polygon-mumbai.infura.io/v3/ff53c238a20e4bcca44cc6b6fe975c67";
+    $my_server_url = "https://polygon-mumbai.infura.io/v3/{your id}";
     $ch = curl_init($my_server_url);
     $data = array(
         'jsonrpc' => '2.0',
